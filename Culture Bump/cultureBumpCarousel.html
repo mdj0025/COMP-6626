@@ -18,15 +18,18 @@
       .borders{
         border-left: 5px solid rgba(0, 0, 0, 0.27);
       }
+      .siteWidth{
+        width: 1140px;
+      }
     </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body class="borders">
+  <body class="card">
     <table width="1140px" align="center">
         <tr>
         <td>
-      <header>
+      <header class="mb-3">
             <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
                 <div class="container">
                     <a href="#" class="navbar-brand">
@@ -66,7 +69,7 @@
                   </nav>
       </header>
         
-                <div id="carouselExample" class="carousel slide" data-ride="carousel" style="width: 100%;">
+                <div id="carouselExample" class="carousel slide mt-3" data-ride="carousel" style="width: 100%;">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExample" data-slide-to="1"></li>
@@ -76,7 +79,7 @@
               
                           <div class="carousel-inner" role="listbox">
                               <div class="carousel-item active">
-                                    <img class="bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/AuPic.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>
+                                    <img class="rounded bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/AuPic.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>
                                     <div class="container">
                                       <div class="carousel-caption text-center">
                                         <h1>What is Culture Bump?</h1>
@@ -89,7 +92,7 @@
                               </div>
                           
                            <div class="carousel-item">
-                                <img class="bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/spaceBeer.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>
+                                <img class="rounded bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/spaceBeer.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>
                                 <div class="container">
                                   <div class="carousel-caption">
                                     <h1>Culture Bump Products</h1>
@@ -100,9 +103,9 @@
                             </div>
               
                             <div class="carousel-item">
-                                    <img class="bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/spaceBeer.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>
+                                    <img class="rounded bd-placeholder-img" width="100%" height="100%" src="https://letstalktalent.co.uk/wp-content/uploads/2018/09/blogsept2018_1-1200x600.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>
                                     <div class="container">
-                                            <div class="carousel-caption text-right">
+                                            <div class="carousel-caption text-center text-dark">
                                               <h1>Culture Bump Trainings</h1>
                                               <p>Culture Bump has a variety of cross cultural trainings to help meet your needs. With both Face to Face and Online options, you can access quality cross cultural courses no matter where you are in the world</p>
                                               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
@@ -120,13 +123,39 @@
                             <span class="sr-only">Next</span>
                           </a>
                       </div>
+                      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </td>
-    </tr>   
+    </tr> 
+    <tr>
+      <td>
+        <div class="jumbotron mt-3">
+          <table width="100%">
+            <col style="width:33%">
+            <col style="width:20%">
+            <col style="width:43%">
+            <thead>
+            <tr>
+              <th>
+                <img class="rounded float-right" src="/Users/michaeljohnson/Desktop/cool pics/AUOutreachPicture.jpg">
+              </th>
+              <th>
+
+              </th>
+              <th class="text-center">
+                <p>Culture Bump Training is a collaboration with the Auburn University Office for the Vice President for University Outreach
+                through the Center for Educational Outreach and Engagement (CEOE).</p>
+                <p>Continuing education credits and certificates available through Auburn University Outreach.</p></th>
+            </tr>
+          </thead>
+          </table>
+        </div>
+      </td>
+    </tr>  
     </table>
 </body>
 </html>
