@@ -6,17 +6,19 @@
         <link rel = "stylesheet" type = "text/css" href = "vendors/css/ionicons.min.css">
         <link rel = "stylesheet" type = "text/css" href = "resources/css/contact-style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+         <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>Contact  Culture Bump - Culture Bump</title>   
-        
     </head>
 </html>
 <body>  
-    <div class = "container-body">
-            <header>
+    <div class = "container-body-1">
+            <header class="mb-3">
                     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
                         <div class="container">
                             <a href="#" class="navbar-brand">
-                                <img src="/Users/michaeljohnson/Desktop/cool pics/CultureBumpLogoCut.jpg" width="45" class="d-inline-block align-middle mr-2">
+                                <!--<img src="https://ibb.co/TrYVmqs" width="45" class="d-inline-block align-middle mr-2">-->
+                                <a href="https://imgbb.com/"><img src="https://i.ibb.co/N7t8ZnM/Culture-Bump-Logo-Cut.jpg" alt="Culture-Bump-Logo-Cut" border="0" width="50"></a>
                                 <span class="text-uppercase font-weight-bold">Culture Bump</span>
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,20 +29,23 @@
                                 <li class="nav-item active">
                                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item active">
                                   <a class="nav-link" href="#">About</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item active">
+                                        <a class="nav-link" href="#">Learn More</a>
+                                </li>
+                                <li class="nav-item active">
                                   <a class="nav-link" href="#">Courses</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item active">
                                   <a class="nav-link" href="#">Resources</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item active">
                                   <a class="nav-link" href="#">Store</a>
                                 </li>
-                                <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                <li class="nav-item active">
+                                        <a class="nav-link" href="Contact-Page.html">Contact</a>
                                 </li>
                               </ul>
                               <form class="form-inline mt-2 mt-md-0">
@@ -48,11 +53,14 @@
                                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                               </form>
                             </div>
-                            </div>
+                        </div>
                           </nav>
               </header>
+
+
+        <element id="bodySection">
         <section class = "contact clearfix box">
-            <div class = "col span-5-of-7 box-style-left">
+            <div class = "col1 span-5-of-7 box-style-left">
                 <!--
                 <div class = "contact-intro-and-image clearfix">
 -->
@@ -84,45 +92,45 @@
                 <div class = "contact-us clearfix">
                     <h3>Contact Us</h3>
                 </div>
-                <div class = "row">
+                <div class = "row1">
                     <form method = "post" action = "#" class = "contact-form">
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
+                        <div class = "row1">
+                            <div class = "col1 span-1-of-3">
                                 <label for = "firstname">First Name</label>
                             </div>
-                            <div class = "col span-2-of-3">
+                            <div class = "col1 span-2-of-3">
                                 <input type = "firstname" name = "firstname" id = "firstname" placeholder="Your First Name" required>
                             </div>
                         </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
+                        <div class = "row1">
+                            <div class = "col1 span-1-of-3">
                                 <label for = "lastname">LastName</label>
                             </div>
-                            <div class = "col span-2-of-3">
+                            <div class = "col1 span-2-of-3">
                                 <input type = "lastname" name = "lastname" id = "lastname" placeholder="Your Last Name" required>
                             </div>
                         </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
+                        <div class = "row1">
+                            <div class = "col1 span-1-of-3">
                                 <label for = "email">Email</label>
                             </div>
-                            <div class = "col span-2-of-3">
+                            <div class = "col1 span-2-of-3">
                                 <input type = "email" name = "email" id = "email" placeholder="Your Email" required>
                             </div>
                         </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
+                        <div class = "row1">
+                            <div class = "col1 span-1-of-3">
                                 <label for = "phone">Phone Number</label>
                             </div>
-                            <div class = "col span-2-of-3">
+                            <div class = "col1 span-2-of-3">
                                 <input type = "phone" name = "phone" id = "phone" placeholder="Your Phone Number" required>
                             </div>
                         </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
+                        <div class = "row1">
+                            <div class = "col1 span-1-of-3">
                                 <label>Subject</label>
                             </div>
-                            <div class = "col span-2-of-3">
+                            <div class = "col1 span-2-of-3">
                                 <select name = "find-us" id = "find-us">
                                     <option value= "Compliment" selected>Compliment</option>
                                     <option value= "Criticsm">Criticsm</option>
@@ -133,19 +141,19 @@
                                 </select>
                             </div>
                         </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
+                        <div class = "row1">
+                            <div class = "col1 span-1-of-3">
                                 <label> Your Message </label>
                             </div>
-                            <div class = "col span-2-of-3">
+                            <div class = "col1 span-2-of-3">
                                 <textarea name = "message" placeholder ="Your Message"></textarea>
                             </div>
                         </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
+                        <div class = "row1">
+                            <div class = "col1 span-1-of-3">
                                 <label>&nbsp;</label>
                             </div>
-                            <div class = "col span-2-of-3 submit-button">
+                            <div class = "col1 span-2-of-3 submit-button">
                                 <input type = "submit" value =  "Send it!">
                             </div>
                         </div>
@@ -154,7 +162,7 @@
                 
             </div>
             
-            <div class = "col span-2-of-7 clearfix">
+            <div class = "col1 span-2-of-7 clearfix">
                 <div class = "header-box-approach clearfix">
                     <h4>What is the Culture Bump Approach? </h4> 
                 </div>
@@ -162,7 +170,7 @@
                 to helping people connect beyond cultural differences. Check out the blog to learn more. <br><br><br></p>
             </div>
             
-            <div class = "col span-2-of-7 clearfix">
+            <div class = "col1 span-2-of-7 clearfix">
                <div class = "header-box-approach ">
                     <h4>Categories</h4> 
                 </div> 
@@ -181,7 +189,7 @@
                    </ul>
             </div> 
             </div>
-            <div class = "col span-2-of-7 clearfix">
+            <div class = "col1 span-2-of-7 clearfix">
             <div class = "header-box-approach ">
                     <h4>Recent Posts</h4> 
                 </div> 
@@ -198,29 +206,21 @@
             </div>
         </section>
         <footer>
-            <div class = "row subscribe clearfix">
+            <div class = "row1 subscribe clearfix">
                 <form method = "post" action = "#" class = "subscribe-form">
-                    <div class = "col span-1-of-3 label-subscribe">
+                    <div class = "col1 span-1-of-3 label-subscribe">
                         <label for="email-footer">Subscribe here for more updates</label>
                     </div>
-                    <div class = "col span-2-of-3">
+                    <div class = "col1 span-2-of-3">
                         <input type = "email-footer" name = "email-footer" id = "email-footer" placeholder = "Enter Your Email Address">
                     </div>
                 </form>
             </div>
             
-            <div class = "row clearfix">
-                <div class = "col span-1-of-4 box-footer-recent">
+            <div class = "row1 clearfix">
+                <div class = "col1 span-1-of-4 box-footer-recent">
                     <h5>Recent Posts</h5>
                     <ul class = "footer-nav-recent-posts">
-                        <!-- with icons
-                        <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Use the Culture Bump App as a Cross-Cultural Conversation Icebreaker</a></li>
-                        <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Well, that was easy! - A Chinese  -American Culture Bump</a></li>
-                        <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Sales tax? Not again! - A Chinese-American Culture Bump</a></li>
-                        <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> We all fall down. How do we get back  &nbsp;  up? -A Chinese-American Culture Bump</a></li>
-                        <li class = "Learn-More"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> More than Cousins</a></li>
-                        <li class = "News"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Business culture bumps with  Americans and Chinese</a></li>
-                        -->
                         <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Use the Culture Bump App as a Cross-Cultural Conversation Icebreaker</a></li>
                         <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Well, that was easy! - A Chinese  -American Culture Bump</a></li>
                         <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Sales tax? Not again! - A Chinese-American Culture Bump</a></li>
@@ -229,7 +229,7 @@
                         <li class = "News"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Business culture bumps with  Americans and Chinese</a></li>
                     </ul>
                 </div>
-                <div class = "col span-1-of-4">
+                <div class = "col1 span-1-of-4">
                     <h5>Categories</h5>
                     <ul class = "footer-nav-categories">
                         <li class = "About"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> About</a></li>
@@ -244,127 +244,47 @@
                         <li class = "Resources"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Uncategorized</a></li>
                    </ul>
                 </div>
-                <div class = "col span-1-of-4">
+                <div class = "col1 span-1-of-4">
                     <ul class = "footer-nav">
-                        <li><a href = "#">About Us</a></li>
-                        <li><a href = "#">Blog</a></li>
-                        <li><a href = "#">Press</a></li>
-                        <li><a href = "#">iOS App</a></li>
-                        <li><a href = "#">Android App</a></li>
+                        <li class = "Courses"><a href = "#"> 
+                            Courses</a></li>
+                        <div class = "Lists">
+                            <li><a href = "#"> Individual Training</a></li>
+                            <li><a href = "#"> Group Training</a></li>
+                            <li><a href = "#"> Corporate Training</a></li>
+                        </div>
+                       
+                        <li class = "About"><a href = "#"> About</a></li>
+                        <div class = "Lists">
+                             <li><a href = "#"> Carol Archer and Associates</a></li>
+                            <li><a href = "#"> Culture Bump Team</a></li>
+                            <li><a href = "#"> History</a></li>
+                        </div>
+                        <li class = "LearnMore"><a href = "#"> Learn More</a></li>
+                        <div class = "Lists">
+                            <li><a href = "#"> Culture Bump Approach</a></li>  
+                            <li><a href = "#"> Quick Tips</a></li>
+                            <li><a href = "#"> Free Resources</a></li>
+                            <li><a href = "#"> FAQS</a></li>
+                        </div>
                     </ul>
                 </div>
-                <div class = "col span-1-of-4">
-                    <ul class = "social-links">
-                        <li><a href = "#"><i class = "ion-social-facebook"></i></a></li>
-                        <li><a href = "#"><i class = "ion-social-twitter"></i></a></li>
-                        <li><a href = "#"><i class = "ion-social-googleplus"></i></a></li>
-                        <li><a href = "#"><i class = "ion-social-instagram"></i></a></li>
+                <div class = "col1 span-1-of-4">
+                    <ul class = "site-links">
+                        <li><a href = "#">Home</a></li>
+                        <li><a href = "#">Resources</a></li>
+                        <li><a href = "#">News</a></li>
+                        <li><a href = "#">Contact</a></li>
+                        <li><a href = "#">Store</a></li>
                     </ul>
                 </div>
             </div>
-            <div class = "row">
+            <div class = "row1">
                 <p>
-                    Copyright &copy; 2015 by Omnifood. All rights reserved.
+                    Copyright &copy; 2018 by Culture Bump. All rights reserved.
                 </p>
             </div>
         </footer>
+    </element>
     </div>
 </body>
-
-<!--
-<li class = "About"><a href = "#"> About</a></li>
-                        <li class = "dropdown-learnmore"><a href = "#"> LearnMore</a>
-                            <ul class = "learn-more-sub-menu">
-                                <a href = "#"> Culture Bump Approach</a>
-                                <a href = "#"> Quick Tips</a>
-                                <a href = "#"> Free Resources</a>
-                                <a href = "#"> FAQS</a>
-                            </ul>
-                        </li>
-
-
-
-
-
-
-
-
-
-
-                        <li class = "dropdown-learnmore"><a href = "#"> Courses</a>
-                            <ul class = "learn-more-sub-menu">
-                                <a href = "#"> Individual Training</a>
-                                <a href = "#"> Group Training</a>
-                                <a href = "#"> Corporate Training</a>
-                            </ul>
-                        </li>
-
-                        <li><a href = "#"> Resources</a></li>
-                        <li><a href = "#"> Store</a></li>
-                        <li><a href = "#"> Contact</a></li>
-
-                        <li><input type = "text" placeholder = "Search..."></li>
-
- <div class = "row">
-                    <form method = "post" action = "#" class = "contact-form">
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
-                                <label for = "name">Name</label>
-                            </div>
-                            <div class = "col span-2-of-3">
-                                <input type = "text" name = "name" id = "name" placeholder="Your Name" required>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
-                                <label for = "email">Email</label>
-                            </div>
-                            <div class = "col span-2-of-3">
-                                <input type = "email" name = "email" id = "email" placeholder="Your Email" required>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
-                                <label for ="find-us">How did you find us?</label>
-                            </div>
-                            <div class = "col span-2-of-3">
-                                <select name = "find-us" id = "find-us">
-                                    <option value= "friends" selected>Friends</option>
-                                    <option value= "search">Search Engine</option>
-                                    <option value= "ad">Advertisement</option>
-                                    <option value= "other">Other</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
-                                <label>Newsletter?</label>
-                            </div>
-                            <div class = "col span-2-of-3">
-                                <input type = "checkbox" name = "news" id = "news" checked> Yes, Please
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
-                                <label>Drop us a line</label>
-                            </div>
-                            <div class = "col span-2-of-3">
-                                <textarea name = "message" placeholder ="Your Message"></textarea>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col span-1-of-3">
-                                <label>&nbsp;</label>
-                            </div>
-                            <div class = "col span-2-of-3">
-                                <input type = "submit" value =  "Send it!">
-                            </div>
-                        </div>
-                    </form>
-            </div>
-
-
-
-
-
--->

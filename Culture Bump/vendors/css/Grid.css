@@ -9,34 +9,34 @@
 
 /*  GROUPING  ============================================================================= */
 
-.row {
+.row1 {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-.row:before,
-.row:after {
+.row1:before,
+.row1:after {
     content:"";
     display:table;
 }
-.row:after {
+.row1:after {
     clear:both;
 }
 
 /*  GRID COLUMN SETUP   ==================================================================== */
 
-.col {
+.col1 {
 	display: block;
 	float:left;
 	margin: 0% 0 1% 0%;
 }
 
-.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.col1:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-	.col { 
+	.col1 { 
 		/*margin: 1% 0 1% 0%;*/
         margin: 0;
 	}
