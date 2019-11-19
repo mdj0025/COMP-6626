@@ -3,7 +3,7 @@
 /* -------------------------------------------------------------------------- */
 
 
-#bodySection * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,14 +11,14 @@
 
 
 
-#bodySection .container-body-1 {
+.container-body-1 {
     max-width: 1140px;
     margin: 0 auto;
     border-left: 1px solid rgba(0, 0, 0, 0.27);
     border-right: 1px solid rgba(0, 0, 0, 0.27);
 }
 
-#bodySection html {
+html {
     background-color: #fff;
     color: #1c1c1c;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -27,8 +27,8 @@
     text-rendering: optimizeLegibility;
 }
 
-#bodySection .clearfix {zoom: 1}
-#bodySection .clearfix:after {
+.clearfix {zoom: 1}
+.clearfix:after {
     content: '.';
     clear: both;
     display: block;
@@ -41,28 +41,29 @@
 /* -------------------------------------------------------------------------- */
 
 
-#bodySection .row1 {
+.row1 {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-#bodySection .col1 {
+.col1 {
 	margin: 0% 0% 0% 0%;
     max-width: 1140px;
 }
 
-#bodySection .span-2-of-7 {
+.span-2-of-7 {
     width: 29.03%;
 }
 
-#bodySection section {
+section {
     padding: 0px 0px;
 }
+
 
 /* --------- PARAGRAPHS --------- */
 
 
-#bodySection .box p {
+.box p {
     font-size: 90%;
     line-height: 145%;
     color: #000000;
@@ -70,14 +71,14 @@
 
 /* --------- ICONS --------- */
 
-#bodySection .icon-big {
+.icon-big {
     font-size: 350%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
 }
 
-#bodySection .icon-small {
+.icon-small {
     display: inline-block;
     width: 30px;
     text-align: center;
@@ -91,7 +92,7 @@
     margin-top: -4px;
 }
 
-#bodySection .icon-small-footer {
+.icon-small-footer {
     display: inline-block;
     width: 5px;
     text-align: center;
@@ -107,9 +108,9 @@
 
 /* --------- BUTTONS --------- */
 
-#bodySection .btn:link, 
-#bodySection .btn:visited,
-#bodySection input[type=submit]{
+.btn:link, 
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300px;
@@ -119,37 +120,37 @@
 
 }
 
-#bodySection .btn-full:link,
-#bodySection .btn-full:visited,
-#bodySection input[type=submit]{
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
     margin-right: 15px
 }
 
-#bodySection .btn-ghost:link,
-#bodySection .btn-ghost:visited {
+.btn-ghost:link,
+.btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
 
-#bodySection .btn:hover,
-#bodySection .btn:active,
-#bodySection input[type=submit]:hover,
-#bodySection input[type=submit]:active {
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #cf6d17;
 }
 
-#bodySection .btn-full:hover,
-#bodySection .btn-full:active,
-#bodySection input[type=submit]{
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]{
     border: 1px solid #cf6d17;
 
 }
 
-#bodySection .btn-ghost:hover,
-#bodySection .btn-ghost:active {
+.btn-ghost:hover,
+.btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
 }
@@ -158,10 +159,10 @@
 /* Heading */
 /* -------------------------------------------------------------------------- */
 
-#bodySection h1, 
-#bodySection h2,
-#bodySection h3, 
-#bodySection h4 {
+h1, 
+h2,
+h3, 
+h4 {
 
     font-weight: 300;
     text-transform: uppercase;
@@ -169,7 +170,7 @@
     
 }
 
-#bodySection h1 {
+h1 {
     margin-top: 0px;
     margin-bottom: 20px;
     color: #000000;
@@ -178,7 +179,7 @@
     letter-spacing: 0.75px;
 }
 
-#bodySection h2 {
+h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: left;
@@ -186,13 +187,13 @@
     letter-spacing: 1px;
 }
 
-#bodySection h3 {
+h3 {
     font-size: 110%;
     color: black;
     margin-bottom: 15px;
 }
 
-#bodySection h2:after {
+h2:after {
     display: block;
     height: 2px;
     background-color: #e67e22;
@@ -202,7 +203,7 @@
     margin-top: 30px
 }
 
-#bodySection h4 {
+h4 {
     margin-top: 7px;
     margin-bottom: 7px;
     margin-left: 5px;
@@ -211,7 +212,7 @@
     text-align: left;
 }
 
-#bodySection h5 {
+h5 {
     font-size: 110%;
     color: rgba(255, 255, 255, 0.76);
     margin-bottom: 10px;
@@ -221,7 +222,7 @@
 /* HEADER */
 /* -------------------------------------------------------------------------- */
 
-#bodySection header {
+header {
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(160, 158, 158, 0.03)), url(img/hero-img-flags.jpg);
     background-size: cover;
     background-position: center;
@@ -234,17 +235,17 @@
 }
 
 
-#bodySection .logo-on-header {
+.logo-on-header {
     height: 40px;
     width: auto;
     float: left;
 }
 
-#bodySection .logo-on-header .logo {
+.logo-on-header .logo {
     height: 45px;
 }
 
-#bodySection .main-menu1 {
+.main-menu1 {
     margin-left: 5px;
     margin-top: 12px;
     height: 40px;
@@ -253,13 +254,13 @@
 
 }
 
-#bodySection .main-menu1 .main-nav {
+.main-menu1 .main-nav {
     list-style: none;
     position: relative;
     width: 100%;
 }
 
-#bodySection .main-menu1 .main-nav li {
+.main-menu1 .main-nav li {
     display: inline;
     float: left;
     margin-left: 15px;
@@ -267,8 +268,8 @@
 
 
 
-#bodySection .main-nav li a:link,
-#bodySection .main-nav li a:visited {
+.main-nav li a:link,
+.main-nav li a:visited {
     padding: 3px 0px;
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none; 
@@ -278,15 +279,15 @@
     transition: border-bottom 0.2s; 
 }
 
-#bodySection .main-nav li a:hover,
-#bodySection .main-nav li a:active {
+.main-nav li a:hover,
+.main-nav li a:active {
     border-bottom: 2px solid #e67e22;
     padding-bottom: 4px;
 }
 
 
 
-#bodySection .main-nav .dropdown-learnmore .learn-more-sub-menu {
+.main-nav .dropdown-learnmore .learn-more-sub-menu {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -297,7 +298,7 @@
     font-size: 95%;
 }
 
-#bodySection .main-nav .dropdown-learnmore .learn-more-sub-menu a {
+.main-nav .dropdown-learnmore .learn-more-sub-menu a {
     float: none;
     color: black;
     font-size: 85%;
@@ -307,11 +308,11 @@
     text-align: left;
 }
 
-#bodySection .main-nav .dropdown-learnmore:hover .learn-more-sub-menu {
+.main-nav .dropdown-learnmore:hover .learn-more-sub-menu {
     display: block;
 }
 
-#bodySection .main-nav li input[type = text] {
+.main-nav li input[type = text] {
     border-radius: 25px;
     padding: 10px;
     width: 150px;
@@ -323,20 +324,20 @@
 /* Contact Section */
 /* -------------------------------------------------------------------------- */
 
-#bodySection .contact {
+.contact {
     border-bottom: 1px solid rgba(0, 0, 0, 0.27);
 }
 
-#bodySection .box-style-left {
+.box-style-left {
     border-right: 1px solid rgba(0, 0, 0, 0.27);  
     
 }
 
-#bodySection .contact-intro-image {
+.contact-intro-image {
     border-bottom: 1px solid rgba(0, 0, 0, 0.27);
 }
 
-#bodySection .contact-intro {
+.contact-intro {
     margin-top: 1%;
     margin-left: 1%;
     margin-bottom: 15px;
@@ -344,24 +345,24 @@
 
 }
 
-#bodySection .logo-on-contact {
+.logo-on-contact {
     float: right;
     margin-top: 1%;
     margin-right: 3%;
 }
 
-#bodySection .contact-us {
+.contact-us {
     margin-top: 3%;
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 15px;
 }
 
-#bodySection .header-box-approach {
+.header-box-approach {
     border-bottom: 1px solid rgba(0, 0, 0, 0.27);
 }
 
-#bodySection .culture-bump-approach {
+.culture-bump-approach {
     padding-left: 5px;
 }
 
@@ -369,19 +370,19 @@
 /* CONTACT */
 /* -------------------------------------------------------------------------- */
 
-#bodySection .contact-form {
+.contact-form {
     padding-left: 10px;
     width: 80%;
     margin: 0 auto;
     float: left;
 }
 
-#bodySection input[type=firstname],
-#bodySection input[type=email],
-#bodySection input[type=lastname],
-#bodySection input[type = phone],
-#bodySection select, 
-#bodySection textarea {
+input[type=firstname],
+input[type=email],
+input[type=lastname],
+input[type = phone],
+select, 
+textarea {
     width: 100%;
     padding: 7px;
     border-radius: 3px;
@@ -389,39 +390,39 @@
     border: 1px solid #ccc;
 }
 
-#bodySection input[type=submit] {
+input[type=submit] {
     margin-bottom: 29px;
 }
 
-#bodySection textarea {
+textarea {
     height: 200px;
     width: 500px;
 }
 
-#bodySection input[type=checkbox] {
+input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-#bodySection *:focus {outline: none;}
+*:focus {outline: none;}
 
 /* CATEGORIES */
 
-#bodySection .list-of-categories {
+.list-of-categories {
     margin-top: 10px;
     margin-left: 5px;
     list-style: none;
 }
 
-#bodySection .list-of-categories a {
+.list-of-categories a {
     text-decoration: none;
 }
 
-#bodySection .list-of-categories li {
+.list-of-categories li {
     margin-bottom: 8px;
 }
 
-#bodySection .list-of-categories li a:link,
-#bodySection .list-of-categories li a:visited
+.list-of-categories li a:link,
+.list-of-categories li a:visited
 {
     text-decoration: none;
     border: 0;
@@ -429,32 +430,32 @@
     transition: color 0.2s;
 }
 
-#bodySection .list-of-categories li a:hover,
-#bodySection .list-of-categories li a:active
+.list-of-categories li a:hover,
+.list-of-categories li a:active
 {
     color: #e67e22;
 }
 
 /* RECENT POSTS */
 
-#bodySection .list-of-posts {
+.list-of-posts {
     margin-top: 10px;
     margin-left: 5px;
     list-style: none;
 }
 
 
-#bodySection .list-of-posts a {
+.list-of-posts a {
     text-decoration: none;
 }
 
-#bodySection .list-of-posts li {
+.list-of-posts li {
     margin-bottom: 10px;
     font-size: 90%;
 }
 
-#bodySection .list-of-posts li a:link,
-#bodySection .list-of-posts li a:visited
+.list-of-posts li a:link,
+.list-of-posts li a:visited
 {
     text-decoration: none;
     border: 0;
@@ -462,8 +463,8 @@
     transition: color 0.2s;
 }
 
-#bodySection .list-of-posts li a:hover,
-#bodySection .list-of-posts li a:active
+.list-of-posts li a:hover,
+.list-of-posts li a:active
 {
     color: #e67e22;
 }
@@ -472,20 +473,20 @@
 /* FOOTER */
 /* -------------------------------------------------------------------------- */
  
-#bodySection footer {
+footer {
     background-color: #676767;
     padding: 50px;
     font-size: 80%;
 }
 
-#bodySection .subscribe-form {
+.subscribe-form {
     padding-left: 5px;
     width: 80%;
     margin: 0 auto;
     float: left;
 }
 
-#bodySection .label-subscribe {
+.label-subscribe {
     font-size: 112%;
     line-height: 32px;
     color: rgb(217, 217, 217);
@@ -495,7 +496,7 @@
 
 }
 
-#bodySection input[type=email-footer] {
+input[type=email-footer] {
     width: 60%;
     padding: 7px;
     border-radius: 3px;
@@ -504,30 +505,30 @@
 }
 
  
-#bodySection .social-links {
+.social-links {
     list-style: none;
     float: right;
 }
  
-#bodySection .social-links li {
+.social-links li {
     display: inline-block;
 }
 
-#bodySection .box-footer-recent {
+.box-footer-recent {
     margin-right: 30px;
 }
 
-#bodySection .footer-nav-recent-posts {
+.footer-nav-recent-posts {
     list-style: none;
 }
 
-#bodySection .footer-nav-recent-posts li {
+.footer-nav-recent-posts li {
     margin-bottom: 15px;
     margin-right: 15px;
 }
 
-#bodySection .footer-nav-recent-posts li a:link,
-#bodySection .footer-nav-recent-posts li a:visited
+.footer-nav-recent-posts li a:link,
+.footer-nav-recent-posts li a:visited
 {
     text-decoration: none;
     border: 0;
@@ -535,24 +536,24 @@
     transition: color 0.3s;
 }
 
-#bodySection .footer-nav-recent-posts li a:hover,
-#bodySection .footer-nav-recent-posts li a:active
+.footer-nav-recent-posts li a:hover,
+.footer-nav-recent-posts li a:active
 {
     color: rgba(230, 126, 34, 0.86);
 }
 
-#bodySection .footer-nav-categories {
+.footer-nav-categories {
     list-style: none;
 }
 
-#bodySection .footer-nav-categories li,
-#bodySection .footer-nav-categories li {
+.footer-nav-categories li,
+.footer-nav-categories li {
     margin-bottom: 15px;
     margin-right: 43px;
 }
 
-#bodySection .footer-nav-categories li a:link,
-#bodySection .footer-nav-categories li a:visited
+.footer-nav-categories li a:link,
+.footer-nav-categories li a:visited
 {
     text-decoration: none;
     border: 0;
@@ -560,67 +561,67 @@
     transition: color 0.3s;
 }
 
-#bodySection .footer-nav-categories li a:hover,
-#bodySection .footer-nav-categories li a:active
+.footer-nav-categories li a:hover,
+.footer-nav-categories li a:active
 {
     color: rgba(230, 126, 34, 0.86);
 }
  
-#bodySection .footer-nav {
+.footer-nav {
     list-style: none;
     float: left;
 }
 
-#bodySection .footer-nav li {
+.footer-nav li {
     margin-left: 10px;
     margin-bottom: 10px;
     margin-right: 20px;
 }
  
-#bodySection .footer-nav .Lists li {
+.footer-nav .Lists li {
     padding-left: 20px;
 }
 
-#bodySection .footer-nav li a:link,
-#bodySection .footer-nav li a:visited,
-#bodySection .social-links li a:link,
-#bodySection .social-links li a:visited {
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
     text-decoration: none;
     border: 0;
     color: #ffffff;
     transition: color 0.2s;
 }
 
-#bodySection .footer-nav li a:hover,
-#bodySection .footer-nav li a:active {
+.footer-nav li a:hover,
+.footer-nav li a:active {
     color: rgba(230, 126, 34, 0.86);
 }
 
-#bodySection .footer-nav li:last-child,
-#bodySection .social-links li:last-child {
+.footer-nav li:last-child,
+.social-links li:last-child {
     margin-right: 0;
 }
 
-#bodySection .site-links {
+.site-links {
     list-style: none;
     float: left;
 }
 
-#bodySection .site-links li {
+.site-links li {
     margin-bottom: 50px;
     padding-left: 75px;
 }
 
-#bodySection .site-links li a:link,
-#bodySection .site-links li a:visited {
+.site-links li a:link,
+.site-links li a:visited {
     text-decoration: none;
     border: 0;
     color: #ffffff;
     transition: color 0.2s;
 }
 
-#bodySection .site-links li a:hover,
-#bodySection .site-links li a:active {
+.site-links li a:hover,
+.site-links li a:active {
     color: rgba(230, 126, 34, 0.86);
 }
  
@@ -656,9 +657,10 @@
 }
 */
  
-#bodySection footer p {
+footer p {
     color: #e6e5e5;
     text-align: center;
     font-size: 90%;
     margin-top: 30px;
 }
+

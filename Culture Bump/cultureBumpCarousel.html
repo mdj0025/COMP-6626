@@ -22,113 +22,71 @@
       .siteWidth{
         width: 1140px;
       }
-      .navbar{
-        height: 100px;
-      }
-      .dropdown:hover > .dropdown-menu {
-        display: block;
-      }
-      .dropdown > .dropdown-toggle:active {
-        /*Without this, clicking will make it sticky*/
-        pointer-events: none;
-      }
-      
-      .dropdown-toggle::after {
-        display:none;
-      }
     </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous">
+      <link rel = "stylesheet" type = "text/css" href = "vendors/css/normalize.css">
+      <link rel = "stylesheet" type = "text/css" href = "vendors/css/grid.css">
+      <link rel = "stylesheet" type = "text/css" href = "vendors/css/ionicons.min.css">
+      <link rel = "stylesheet" type = "text/css" href = "resources/css/contact-style.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
   </head>
-  <table width="1140px" align="center">
+  <div class="container-body-1" align="center">
+  <table width="1140px">
     <tr>
       <td>
-        <header class="mb-3">
-          <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-            <div class="container">
-              <a href="#" class="navbar-brand">
-                <!--<img src="https://ibb.co/TrYVmqs" width="45" class="d-inline-block align-middle mr-2">-->
-                <a href="https://imgbb.com/"><img
-                    src="https://i.ibb.co/N7t8ZnM/Culture-Bump-Logo-Cut.jpg"
-                    alt="Culture-Bump-Logo-Cut" border="0" width="50"></a>
-                <span class="text-uppercase font-weight-bold">Culture Bump</span>
-              </a>
-              <button class="navbar-toggler" type="button"
-                data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item active dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-                      data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                      About
-                    </a>
-                    <div class="dropdown-menu"
-                      aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Carol Archer and
-                        Associates</a>
-                      <a class="dropdown-item" href="#">Culture Bump Team</a>
-                      <a class="dropdown-item" href="#">History</a>
-                    </div>
-                  </li>
-                  <li class="nav-item active dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-                      data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                      Learn More
-                    </a>
-                    <div class="dropdown-menu"
-                      aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Culture Bump Approach</a>
-                      <a class="dropdown-item" href="#">Quick Action Tips</a>
-                      <a class="dropdown-item" href="#">Free Resources</a>
-                      <a class="dropdown-item" href="#">FAQs</a>
-                    </div>
-                  </li>
-                  <li class="nav-item active dropdown">
-                    <a class="nav-link" href="#" id="navbarDropdownMenuLink"
-                      data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                      Courses
-                    </a>
-                    <div class="dropdown-menu"
-                      aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Individual Training</a>
-                      <a class="dropdown-item" href="#">Group Trainings</a>
-                      <a class="dropdown-item" href="#">Corporate Training</a>
-                    </div>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Resources & Blog</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Store</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="Contact-Page.html">Contact</a>
-                  </li>
-                </ul>
-                <form class="form-inline mt-2 mt-md-0">
-                  <input class="form-control mr-sm-2" type="text"
-                    placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0"
-                    type="submit">Search</button>
-                </form>
+          <header>
+              <nav>
+                  <div class = "row1"> 
+                      <div class = "logo-on-header">
+                      <a href = "www.culturebump.com">
+                          <img src = "resources/img/culture-bump-logo-label.png" alt = "Culture Bump Logo" class = "logo"> 
+                      </a>
+                      </div>
+                      <div class = "main-menu1">
+                          <div class = "row1"> 
+                              <ul class = "main-nav">
+                                  <li class = "Home"><a href = "cultureBumpCarousel.html"> Home</a></li>
+                                  <li class = "dropdown-learnmore"><a href = "#"> About</a>
+                                  <ul class = "learn-more-sub-menu">
+                                      <a href = "#"> Carol Archer and Associates</a>
+                                      <a href = "#"> Culture Bump Team</a>
+                                      <a href = "#"> History</a>
+                                  </ul>
+                                  </li>
+                                  <li class = "dropdown-learnmore"><a href = "#"> Learn More</a>
+                                  <ul class = "learn-more-sub-menu">
+                                      <a href = "#"> Culture Bump Approach</a>
+                                      <a href = "#"> Quick Tips</a>
+                                      <a href = "#"> Free Resources</a>
+                                      <a href = "#"> FAQS</a>
+                                  </ul>
+                                  </li>
+                                  <li class = "dropdown-learnmore"><a href = "#"> Courses</a>
+                                      <ul class = "learn-more-sub-menu">
+                                          <a href = "#"> Individual Training</a>
+                                          <a href = "#"> Group Training</a>
+                                          <a href = "#"> Corporate Training</a>
+                                      </ul>
+                                  </li>
+                                  <li><a href = "#"> Resources</a></li>
+                                  <li><a href = "#"> Store</a></li>
+                                  <li><a href = "Contact-Page.html"> Contact</a></li>
+                                  <li><input type = "text" placeholder = "Search..."></li>  
+                              </ul>
+                          </div>
+                      </div>
               </div>
-            </div>
-          </nav>
-        </header>
-        <body>
+              </nav>
+          </header>
+      </td>
+    </tr>
+    <body style="margin-top: 75px;">
+      <tr>
+        <td>
           <div id="carouselExample" class="carousel slide mt-3"
             data-ride="carousel" style="width: 100%;">
             <ol class="carousel-indicators">
@@ -142,11 +100,11 @@
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
                 <!-- <img class="rounded bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/AuPic.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>-->
-                <a href="https://ibb.co/S08tDKX"><img class="rounded
-                    bd-placeholder-img" width="100%" height="100%"
-                    src="https://i.ibb.co/ZKPBRh6/AuPic.jpg"
-                    preserveAspectRatio="xMidYMid slice" focusable="false"
-                    alt="AuPic" border="0"></a>
+                <img class="rounded
+                  bd-placeholder-img" width="100%" height="100%"
+                  src="https://i.ibb.co/ZKPBRh6/AuPic.jpg"
+                  preserveAspectRatio="xMidYMid slice" focusable="false"
+                  alt="AuPic" border="0">
                 <div class="container">
                   <div class="carousel-caption text-center">
                     <h1>What is Culture Bump?</h1>
@@ -165,11 +123,11 @@
 
               <div class="carousel-item">
                 <!--<img class="rounded bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/AuPic.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>-->
-                <a href="https://ibb.co/S08tDKX"><img class="rounded
-                    bd-placeholder-img" width="100%" height="100%"
-                    src="https://i.ibb.co/ZKPBRh6/AuPic.jpg"
-                    preserveAspectRatio="xMidYMid slice" focusable="false"
-                    alt="AuPic" border="0"></a>
+                <img class="rounded
+                  bd-placeholder-img" width="100%" height="100%"
+                  src="https://i.ibb.co/ZKPBRh6/AuPic.jpg"
+                  preserveAspectRatio="xMidYMid slice" focusable="false"
+                  alt="AuPic" border="0">
                 <div class="container">
                   <div class="carousel-caption">
                     <h1>Culture Bump Products</h1>
@@ -185,11 +143,11 @@
 
               <div class="carousel-item">
                 <!--<img class="rounded bd-placeholder-img" width="100%" height="100%" src="/Users/michaeljohnson/Desktop/cool pics/AuPic.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%"/></img>-->
-                <a href="https://ibb.co/S08tDKX"><img class="rounded
-                    bd-placeholder-img" width="100%" height="100%"
-                    src="https://i.ibb.co/ZKPBRh6/AuPic.jpg"
-                    preserveAspectRatio="xMidYMid slice" focusable="false"
-                    alt="AuPic" border="0"></a>
+                <img class="rounded
+                  bd-placeholder-img" width="100%" height="100%"
+                  src="https://i.ibb.co/ZKPBRh6/AuPic.jpg"
+                  preserveAspectRatio="xMidYMid slice" focusable="false"
+                  alt="AuPic" border="0">
                 <div class="container">
                   <div class="carousel-caption text-center">
                     <h1>Culture Bump Trainings</h1>
@@ -242,10 +200,10 @@
                   <tr>
                     <th>
                       <!--<img class="rounded float-right" src="/Users/michaeljohnson/Desktop/cool pics/AUOutreachPicture.jpg">-->
-                      <a href="https://imgbb.com/"><img class="rounded
-                          float-right"
-                          src="https://i.ibb.co/thHx7kg/AUOutreach-Picture.jpg"
-                          alt="AUOutreach-Picture" border="0"></a>
+                      <img class="rounded
+                        float-right"
+                        src="https://i.ibb.co/thHx7kg/AUOutreach-Picture.jpg"
+                        alt="AUOutreach-Picture" border="0">
                     </th>
                     <th>
 
@@ -255,8 +213,8 @@
                         Auburn University Office for the Vice President for
                         University Outreach
                         through the Center for Educational Outreach and
-                        Engagement (CEOE).</p>
-                      <p>Continuing education credits and certificates available
+                        Engagement (CEOE). Continuing education credits and
+                        certificates available
                         through Auburn University Outreach.</p></th>
                   </tr>
                 </thead>
@@ -264,5 +222,93 @@
             </div>
           </td>
         </tr>
+        <tr>
+          <td>
+              <footer class="jumbotron" style="background-color:#676767;">
+              <element id="bodySection">
+                  <div class = "row1 subscribe clearfix">
+                      <form method = "post" action = "#" class = "subscribe-form">
+                          <div class = "col1 span-1-of-3 label-subscribe">
+                              <label for="email-footer">Subscribe here for more updates</label>
+                          </div>
+                          <div class = "col1 span-2-of-3">
+                              <input type = "email-footer" name = "email-footer" id = "email-footer" placeholder = "Enter Your Email Address">
+                          </div>
+                      </form>
+                  </div>
+                  
+                  <div class = "row1 clearfix">
+                      <div class = "col1 span-1-of-4 box-footer-recent">
+                          <h5>Recent Posts</h5>
+                          <ul class = "footer-nav-recent-posts">
+                              <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Use the Culture Bump App as a Cross-Cultural Conversation Icebreaker</a></li>
+                              <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Well, that was easy! - A Chinese  -American Culture Bump</a></li>
+                              <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Sales tax? Not again! - A Chinese-American Culture Bump</a></li>
+                              <li><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> We all fall down. How do we get back  &nbsp;  up? -A Chinese-American Culture Bump</a></li>
+                              <li class = "Learn-More"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> More than Cousins</a></li>
+                              <li class = "News"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Business culture bumps with  Americans and Chinese</a></li>
+                          </ul>
+                      </div>
+                      <div class = "col1 span-1-of-4">
+                          <h5>Categories</h5>
+                          <ul class = "footer-nav-categories">
+                              <li class = "About"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> About</a></li>
+                              <li class = "Announcements"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Announcements</a></li>
+                              <li class = "Articles"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Articles</a></li>
+                              <li class = "Examples of Culture Bumps"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Examples of Culture Bumps</a></li>
+                              <li class = "Learn-More"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Learn More</a></li>
+                              <li class = "News"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> News</a></li>
+                              <li class = "Resources"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Resources</a></li>
+                              <li class = "The-About-Page"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> The About Page</a></li>
+                              <li class = "Resources"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Training</a></li>
+                              <li class = "Resources"><i class = "ion-ios-play icon-small-footer"></i><a href = "#"> Uncategorized</a></li>
+                         </ul>
+                      </div>
+                      <div class = "col1 span-1-of-4">
+                          <ul class = "footer-nav">
+                              <li class = "Courses"><a href = "#"> 
+                                  Courses</a></li>
+                              <div class = "Lists">
+                                  <li><a href = "#"> Individual Training</a></li>
+                                  <li><a href = "#"> Group Training</a></li>
+                                  <li><a href = "#"> Corporate Training</a></li>
+                              </div>
+                             
+                              <li class = "About"><a href = "#"> About</a></li>
+                              <div class = "Lists">
+                                   <li><a href = "#"> Carol Archer and Associates</a></li>
+                                  <li><a href = "#"> Culture Bump Team</a></li>
+                                  <li><a href = "#"> History</a></li>
+                              </div>
+                              <li class = "LearnMore"><a href = "#"> Learn More</a></li>
+                              <div class = "Lists">
+                                  <li><a href = "#"> Culture Bump Approach</a></li>  
+                                  <li><a href = "#"> Quick Tips</a></li>
+                                  <li><a href = "#"> Free Resources</a></li>
+                                  <li><a href = "#"> FAQS</a></li>
+                              </div>
+                          </ul>
+                      </div>
+                      <div class = "col1 span-1-of-4">
+                          <ul class = "site-links">
+                              <li><a href = "#">Home</a></li>
+                              <li><a href = "#">Resources</a></li>
+                              <li><a href = "#">News</a></li>
+                              <li><a href = "#">Contact</a></li>
+                              <li><a href = "#">Store</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class = "row1" style="align-content: center;">
+                      <p>
+                          Copyright &copy; 2019 by Culture Bump. All rights reserved.
+                      </p>
+                  </div>
+                </element>
+              </footer>
+          </td>
+        </tr>
+      </body>
     </table>
+  </div>
   </html>
