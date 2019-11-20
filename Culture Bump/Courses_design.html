@@ -1,27 +1,40 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Content/bootstrap.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" type="text/css" href="Content/StyleSheet1.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
-    <script src="Scripts/WebForms/jquery-3.3.1.min.js"></script>
-    <script src="Scripts/WebForms/bootstrap.min.js"></script>
-    <style>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css"
+            href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css"
+            href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="resources/css/contact-style.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
+            rel="stylesheet">
+        <script src="Scripts/WebForms/jquery-3.3.1.min.js"></script>
+        <script src="Scripts/WebForms/bootstrap.min.js"></script>
+        <style>
         body, html {
             height: 100%;
-            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            font-family: Lato !important;
+            font-weight: 300 !important;
         }
 
         .hero-image {
-            margin: 30px 5px;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/culturebumptraining.jpg");
+            margin: 0px -15px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("resources/img/culturebumptraining.jpg");
             height: 20%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
+            align-content: center;
         }
 
         .hero-text {
@@ -35,58 +48,82 @@
             width: 500px;
         }
 
-        .myStyle {
-            width: 1005px;
-            padding: 10px;
-            border: 5px solid white;
-            margin: 0;
-            box-shadow: 5px 10px 8px #D3D3D3;
-        }
+     
     </style>
-</head>
-<body>
-    <div class="container">
-        
+    </head>
+    <div class="container-body-1" style="align-content: center;">
         <header>
-            <nav>
-                <div class="row">
+            <nav style="font-family: Lato; font-weight: 300; font-size: 20px;">
+                <div class="row1">
                     <div class="logo-on-header">
                         <a href="www.culturebump.com">
-                            <img src="Images/logoimage.PNG" alt="Culture Bump Logo" class="logo" style="height:75px;width:270px"/>
+                            <img src="resources/img/culture-bump-logo-label.png"
+                                alt="Culture
+                                Bump Logo" class="logo">
                         </a>
                     </div>
-                    <div class="main-menu">
-                        <div class="row">
+                    <div class="main-menu1">
+                        <div class="row1">
                             <ul class="main-nav">
-                                <li class="Home"><a href="#"> Home</a></li>
-                                <li class="dropdown-learnmore">
-                                    <a href="#"> About</a>
+                                <li class="Home"><a href="cultureBumpCarousel.html">
+                                        Home</a></li>
+                                <li class="dropdown-learnmore"><a
+                                        href="https://culturebump.com/about/">
+                                        About</a>
                                     <ul class="learn-more-sub-menu">
-                                        <a href="#"> Carol Archer and Associates</a>
-                                        <a href="#"> Culture Bump Team</a>
-                                        <a href="#"> History</a>
+                                        <a
+                                            href="https://culturebump.com/about/carol-archer-and-associates-2/">
+                                            Carol Archer and Associates</a>
+                                        <a
+                                            href="https://culturebump.com/about/about-the-culture-bump-team/">
+                                            Culture Bump Team</a>
+                                        <a
+                                            href="https://culturebump.com/about/history/">
+                                            History</a>
                                     </ul>
                                 </li>
-                                <li class="dropdown-learnmore">
-                                    <a href="#"> Learn More</a>
+                                <li class="dropdown-learnmore"><a
+                                        href="https://culturebump.com/learn-more/">
+                                        Learn More</a>
                                     <ul class="learn-more-sub-menu">
-                                        <a href="#"> Culture Bump Approach</a>
-                                        <a href="#"> Quick Tips</a>
-                                        <a href="#"> Free Resources</a>
-                                        <a href="#"> FAQS</a>
+                                        <a
+                                            href="https://culturebump.com/culture-bump-approach/">
+                                            Culture Bump Approach</a>
+                                        <a
+                                            href="https://culturebump.com/quick-action-tips/">
+                                            Quick Tips</a>
+                                        <a
+                                            href="https://culturebump.com/learn-more/free-resources/">
+                                            Free Resources</a>
+                                        <a
+                                            href="https://culturebump.com/learn-more/faqs/">
+                                            FAQS</a>
                                     </ul>
                                 </li>
-                                <li class="dropdown-learnmore">
-                                    <a href="#"> Courses</a>
+                                <li class="dropdown-learnmore"><a
+                                        href="Courses_design.html">
+                                        Courses</a>
                                     <ul class="learn-more-sub-menu">
-                                        <a href="#"> Individual Training</a>
-                                        <a href="#"> Group Training</a>
-                                        <a href="#"> Corporate Training</a>
+                                        <a
+                                            href="https://culturebump.com/individual-training/">
+                                            Individual Training</a>
+                                        <a
+                                            href="https://culturebump.com/group-trainings/">
+                                            Group Training</a>
+                                        <a
+                                            href="https://culturebump.com/corporate-training/">
+                                            Corporate Training</a>
                                     </ul>
                                 </li>
-                                <li><a href="#"> Resources</a></li>
-                                <li><a href="#"> Store</a></li>
-                                <li><a href="#"> Contact</a></li>
+                                <li><a
+                                        href="https://culturebump.com/resources/">
+                                        Resources</a></li>
+                                <li><a href="https://culturebump.com/news/">
+                                        News</a></li>
+                                <li><a href="Contact-Page.html">
+                                        Contact</a></li>
+                                <li><a href="https://culturebump.com/store/">
+                                        Store</a></li>
                                 <li><input type="text" placeholder="Search..."></li>
                             </ul>
                         </div>
@@ -94,72 +131,238 @@
                 </div>
             </nav>
         </header>
-        <div class="hero-image" style="height:400px;width:1100px">
-            <div class="hero-text">
-                <h1 style="font-size:40px;color:white">Culture Bump Trainings</h1>
-                <br />
-                <p>Culture Bump has 40 years of experience training individual, groups, and corporate employees in the skills they need to deepen their cross cultural communication competency. </p>
+        <body>
+            <div class="container">
 
-            </div>
-        </div>
 
-        <div class=" row" style="height:135px">
-            <div class="col-sm-11">
-                <div class="column">
-                    <div class="col-sm-3">
-                        <img src="Images\individual-training.jpg" style="width:200px;height:120px">
+                <div class="hero-image" style="height:400px;width:1139px">
 
+                    <div class="hero-text">
+                        <h1 style="font-size:40px;color:white">Culture Bump
+                            Trainings</h1>
+                        <br />
+                        <p style="text-align:center">Culture Bump has 40 years
+                            of
+                            experience training individual, groups, and
+                            corporate
+                            employees in the skills they need to deepen their
+                            cross
+                            cultural communication competency.Over that period,
+                            Culture Bump trainings have been refined into
+                            process
+                            proven programs that result in an increased ability
+                            to
+                            manage "culture bumps" or cultural differences and
+                            sustain connection with people from differing
+                            backgrounds. Find out more details by choosing the
+                            category of training that best suits your needs.
+                        </p>
                     </div>
-                    <div class="column">
-                        <div class="col-sm-8">
-                            <h3><a href="#" style="color:#337ab7"><b>Individual Trainings</b></a></h3>
-                            <p style="color:black">Culture Bump is dedicated to helping individuals understand their culture and how it effects them during their interactions with people from different cultural backgrounds.</p>
+                </div>
+                <br/>
+                    <div class="row" style="height:135px">
+                        <div class="col-sm-11">
+                            <div class="column">
+                                <div class="col-sm-4">
+                                    <img
+                                        src="resources/img/individual-training.jpg"
+                                        style="width:200px;height:120px">
 
+                                </div>
+                                <div class="column">
+                                    <div class="col-sm-7">
+                                        <h3><a
+                                                href="https://culturebump.com/individual-training/"
+                                                style="color:#337ab7"><b
+                                                    style="font-size:20px">Individual
+                                                    Trainings</b></a></h3>
+                                        <p style="color:black;font-size:18px">Culture
+                                            Bump is dedicated to helping
+                                            individuals
+                                            understand their culture and how it
+                                            effects
+                                            them during their interactions with
+                                            people
+                                            from different cultural backgrounds.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <hr />
-        <div class=" row" style="height:135px">
-            <div class="col-sm-11">
-                <div class="column">
-                    <div class="col-sm-3">
-                        <img src="Images\business-meetings-03.jpg" style="width:200px;height:120px">
+                    <hr />
+                    <div class="row" style="height:110px">
+                        <div class="col-sm-11">
+                            <div class="column">
+                                <div class="col-sm-4">
+                                    <img
+                                        src="resources/img/business-meetings-03.jpg"
+                                        style="width:200px;height:120px">
+                                </div>
+                                <div class="column">
+                                    <div class="col-sm-7">
+                                        <h3><a
+                                                href="https://culturebump.com/group-trainings/"
+                                                style="color:#337ab7"><b
+                                                    style="font-size:20px">Group
+                                                    Trainings</b></a></h3>
+                                        <p style="color:black;font-size:18px">Culture
+                                            Bump has a long history of training
+                                            groups
+                                            in developing their cross culture
+                                            communications skills.</p>
 
-                    </div>
-                    <div class="column">
-                        <div class="col-sm-8">
-                            <h3><a href="#" style="color:#337ab7"><b>Group Trainings</b></a></h3>
-                            <p style="color:black">Culture Bump has a long history of training groups in developing their cross culture communications skills.</p>
-
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <hr />
-        <div class=" row" style="height:135px">
-            <div class="col-sm-11">
-                <div class="column">
-                    <div class="col-sm-3">
-                        <img src="Images\Corporate-Training.jpg" style="width:200px; height:120px">
+                    <br />
+                    <hr />
+                    <div class="row" style="height:135px">
+                        <div class="col-sm-11">
+                            <div class="column">
+                                <div class="col-sm-4">
+                                    <img
+                                        src="resources/img/Corporate-Training.jpg"
+                                        style="width:200px; height:120px">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="col-sm-7">
+                                    <h3><a
+                                            href="https://culturebump.com/corporate-training/"
+                                            style="color:#337ab7"><b
+                                                style="font-size:20px">Corporate
+                                                Trainings</b></a></h3>
+                                    <p style="color:black;font-size:18px">Culture
+                                        Bump
+                                        offers programs designed to fit the
+                                        cross
+                                        cultural communication training needs of
+                                        businesses.</p>
 
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+                </div>
+            </body>
+            <footer>
+                <div class="row1 subscribe clearfix">
+                    <form method="post" action="#" class="subscribe-form">
+                        <div class="col1 span-1-of-3 label-subscribe">
+                            <label for="email-footer">Subscribe here for more
+                                updates</label>
+                        </div>
+                        <div class="col1 span-2-of-3">
+                            <input type="email-footer" name="email-footer"
+                                id="email-footer"
+                                placeholder="Enter Your Email Address">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row1 clearfix">
+                    <div class="col1 span-1-of-4 box-footer-recent">
+                        <h5>Recent Posts</h5>
+                        <ul class="footer-nav-recent-posts">
+                            <li><i class="ion-ios-play icon-small-footer"></i><a
+                                    href="#"> Use the Culture Bump App as a
+                                    Cross-Cultural Conversation Icebreaker</a></li>
+                            <li><i class="ion-ios-play icon-small-footer"></i><a
+                                    href="#"> Well, that was easy! - A Chinese
+                                    -American Culture Bump</a></li>
+                            <li><i class="ion-ios-play icon-small-footer"></i><a
+                                    href="#"> Sales tax? Not again! - A
+                                    Chinese-American Culture Bump</a></li>
+                            <li><i class="ion-ios-play icon-small-footer"></i><a
+                                    href="#"> We all fall down. How do we get
+                                    back &nbsp; up? -A Chinese-American Culture
+                                    Bump</a></li>
+                            <li class="Learn-More"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> More
+                                    than Cousins</a></li>
+                            <li class="News"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> Business
+                                    culture bumps with Americans and Chinese</a></li>
+                        </ul>
+                    </div>
+                    <div class="col1 span-1-of-4">
+                        <h5>Categories</h5>
+                        <ul class="footer-nav-categories">
+                            <li class="About"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> About</a></li>
+                            <li class="Announcements"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#">
+                                    Announcements</a></li>
+                            <li class="Articles"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> Articles</a></li>
+                            <li class="Examples of Culture Bumps"><i
+                                    class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> Examples
+                                    of Culture Bumps</a></li>
+                            <li class="Learn-More"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> Learn
+                                    More</a></li>
+                            <li class="News"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> News</a></li>
+                            <li class="Resources"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#">
+                                    Resources</a></li>
+                            <li class="The-About-Page"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> The
+                                    About Page</a></li>
+                            <li class="Resources"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#"> Training</a></li>
+                            <li class="Resources"><i class="ion-ios-play
+                                    icon-small-footer"></i><a href="#">
+                                    Uncategorized</a></li>
+                        </ul>
+                    </div>
+                    <div class="col1 span-1-of-4">
+                        <ul class="footer-nav">
+                            <li class="Courses"><a href="#">
+                                    Courses</a></li>
+                            <div class="Lists">
+                                <li><a href="#"> Individual Training</a></li>
+                                <li><a href="#"> Group Training</a></li>
+                                <li><a href="#"> Corporate Training</a></li>
+                            </div>
+
+                            <li class="About"><a href="#"> About</a></li>
+                            <div class="Lists">
+                                <li><a href="#"> Carol Archer and Associates</a></li>
+                                <li><a href="#"> Culture Bump Team</a></li>
+                                <li><a href="#"> History</a></li>
+                            </div>
+                            <li class="LearnMore"><a href="#"> Learn More</a></li>
+                            <div class="Lists">
+                                <li><a href="#"> Culture Bump Approach</a></li>
+                                <li><a href="#"> Quick Tips</a></li>
+                                <li><a href="#"> Free Resources</a></li>
+                                <li><a href="#"> FAQS</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col1 span-1-of-4">
+                        <ul class="site-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Store</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="col-sm-8">
-                        <h3><a href="#" style="color:#337ab7"><b>Corporate Trainings</b></a></h3>
-                        <p style="color:black">Culture Bump offers programs designed to fit the cross cultural communication training needs of businesses.</p>
-
-                    </div>
-
+                <div class="row1">
+                    <p>
+                        Copyright &copy; 2019 by Culture Bump. All rights
+                        reserved.
+                    </p>
                 </div>
-            </div>
+            </footer>
         </div>
-
-    </div>
-       
-
-</body>
-</html>
+    </html>

@@ -16,6 +16,9 @@
     margin: 0 auto;
     border-left: 1px solid rgba(0, 0, 0, 0.27);
     border-right: 1px solid rgba(0, 0, 0, 0.27);
+    align-items: center;
+    font-family: Lato;
+    font-weight: 300;
 }
 
 html {
