@@ -277,7 +277,7 @@ header {
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none; 
     text-transform: uppercase; 
-    font-size: 85%;
+    font-size: 82%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s; 
 }
@@ -318,7 +318,7 @@ header {
 .main-nav li input[type = text] {
     border-radius: 25px;
     padding: 10px;
-    width: 150px;
+    width: 120px;
     height: 25px;
     padding-top: 5px;
 }
